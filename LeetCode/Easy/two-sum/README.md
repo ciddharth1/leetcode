@@ -8,7 +8,7 @@
 
 ### Optimal
 
-- **Language:** `cpp`
+- **Language:** `java`
 - **Runtime:** `0 ms
 Case 1
 Case 2
@@ -17,25 +17,20 @@ Input
 nums`
 - **Date:** 8/16/2026
 
-```cpp
-    vector<int> twoSum(vector<int>& arr, int x) {
-
-        vector<int> v(2);
-        int n = arr.size();
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] + arr[j] == x) {
-                    v[0] = i;
-                    v[1] = j;
-                    return v;
+```java
+class Solution {
+    public int[] twoSum(int[] arr, int target) {
+        int t,k;
+        for( int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i]+arr[j]==target){
+                     return new int[]{i, j};
                 }
             }
         }
-        return v;
+        return new int[]{};
     }
-};
-public:
-class Solution {
+}
 
 ```
 
