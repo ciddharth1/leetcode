@@ -9,15 +9,16 @@
 ### Optimal
 
 - **Language:** `cpp`
+- **Runtime:** `0 ms
+Case 1
+Case 2
+Case 3
+Input
+nums`
 - **Date:** 8/16/2026
 
 ```cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        
-    }
-};
+c
 
 ```
 
