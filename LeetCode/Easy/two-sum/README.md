@@ -6,7 +6,7 @@
 
 ## Solutions
 
-### Optimal
+### Brute Force
 
 - **Language:** `java`
 - **Runtime:** `0 ms
@@ -30,6 +30,7 @@ class Solution {
         }
         return new int[]{};
     }
+        // Code2Git UPDATE TEST
 }
 
 ```
