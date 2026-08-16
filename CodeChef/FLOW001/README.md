@@ -11,3 +11,7 @@
 - **Language:** C++
 - **Solution:** [optimal.cpp](./optimal.cpp)
 
+### Optimal
+
+- **Language:** C
+- **Solution:** [optimal.c](./optimal.c)
