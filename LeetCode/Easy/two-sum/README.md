@@ -1,7 +1,7 @@
 # Two Sum
 
 **Platform:** LeetCode
-**Difficulty:** Easy
+**Difficulty:** Easy  
 **Problem URL:** [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
 
 ## Solutions
@@ -35,3 +35,9 @@ class Solution {
 
 ```
 
+### Optimal
+
+- **Language:** C++
+- **Time Complexity:** Not specified
+- **Space Complexity:** Not specified
+- **Solution:** [optimal.cpp](./optimal.cpp)
