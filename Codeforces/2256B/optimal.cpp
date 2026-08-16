@@ -1,0 +1,1 @@
+// Could not auto-extract code from Codeforces page.
