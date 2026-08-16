@@ -6,7 +6,7 @@
 
 ## Solutions
 
-### Optimal
+### Brute Force
 
 - **Language:** `java`
 - **Runtime:** `0 ms
