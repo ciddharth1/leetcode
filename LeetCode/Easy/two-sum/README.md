@@ -47,3 +47,10 @@ class Solution {
 - **Time Complexity:** Not specified
 - **Space Complexity:** Not specified
 - **Solution:** [optimal.java](./optimal.java)
+
+### Optimal (v2)
+
+- **Language:** Java
+- **Time Complexity:** Not specified
+- **Space Complexity:** Not specified
+- **Solution:** [optimal-v2.java](./optimal-v2.java)
