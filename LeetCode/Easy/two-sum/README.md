@@ -41,3 +41,10 @@ class Solution {
 - **Time Complexity:** Not specified
 - **Space Complexity:** Not specified
 - **Solution:** [optimal.cpp](./optimal.cpp)
+
+### Optimal
+
+- **Language:** Java
+- **Time Complexity:** Not specified
+- **Space Complexity:** Not specified
+- **Solution:** [optimal.java](./optimal.java)
