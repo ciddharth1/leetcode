@@ -4,8 +4,7 @@
 **Difficulty:** Easy  
 **Problem URL:** [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
 
-## Solutions
-### Brute Force
+## Solutions### Brute Force
 
 - **Language:** `java`
 - **Runtime:** `0 ms
@@ -32,14 +31,12 @@ class Solution {
         // Code2Git UPDATE TEST
 }
 
-```
-### Optimal
+```### Optimal
 
 - **Language:** C++
 - **Time Complexity:** Not specified
 - **Space Complexity:** Not specified
 - **Solution:** [optimal.cpp](./optimal.cpp)
-
 
 ### Optimal
 
@@ -47,6 +44,7 @@ class Solution {
 - **Time Complexity:** Not specified
 - **Space Complexity:** Not specified
 - **Solution:** [optimal.java](./optimal.java)
+
 
 ### Optimal (v2)
 
