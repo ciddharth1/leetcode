@@ -20,3 +20,10 @@
 - **Time Complexity:** Not specified
 - **Space Complexity:** Not specified
 - **Solution:** [optimal-v2.cpp](./optimal-v2.cpp)
+
+### Optimal (v3)
+
+- **Language:** C++
+- **Time Complexity:** Not specified
+- **Space Complexity:** Not specified
+- **Solution:** [optimal-v3.cpp](./optimal-v3.cpp)
