@@ -6,9 +6,10 @@
 
 ## Solutions
 
+
 ### Optimal
 
 - **Language:** C++
-- **Time Complexity:** nsquare
-- **Space Complexity:** order of n
+- **Time Complexity:** Not specified
+- **Space Complexity:** Not specified
 - **Solution:** [optimal.cpp](./optimal.cpp)
