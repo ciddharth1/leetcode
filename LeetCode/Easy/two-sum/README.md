@@ -5,7 +5,6 @@
 **Problem URL:** [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
 
 ## Solutions
-
 ### Brute Force
 
 - **Language:** `java`
@@ -34,13 +33,13 @@ class Solution {
 }
 
 ```
-
 ### Optimal
 
 - **Language:** C++
 - **Time Complexity:** Not specified
 - **Space Complexity:** Not specified
 - **Solution:** [optimal.cpp](./optimal.cpp)
+
 
 ### Optimal
 
