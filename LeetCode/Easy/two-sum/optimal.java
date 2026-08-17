@@ -1,6 +1,6 @@
 class Solution {
     public int[] twoSum(int[] a, int target) {
-        // Code2Git UPDATE TEST
+        // Code2Git UPDATE TEST//
         int t,k;
         for( int i=0;i<a.length;i++){
             for(int j=i+1;j<a.length;j++){
