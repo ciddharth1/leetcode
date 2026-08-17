@@ -1,3 +1,16 @@
-Input: root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8
-Output: 3
-Explanation: The paths that sum to 8 are shown.
+        if(root->val==sum){
+            count++;
+        }
+        helper(root->left,count,sum-(long long)root->val);
+        helper(root->right,count,sum-(long long)root->val);
+        return count;
+        
+    }
+    int pathSum(TreeNode* root, long long targetSum) {
+        if(root==NULL) return 0;
+       int count=0;
+        count=helper(root,count,(long long)targetSum);
+        count+=(pathSum(root->left,targetSum)+pathSum(root->right,targetSum));
+        return (long long)count;
+    }
+};
