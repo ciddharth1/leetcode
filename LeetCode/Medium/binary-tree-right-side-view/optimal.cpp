@@ -1,3 +1,16 @@
-Input: root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8
-Output: 3
-Explanation: The paths that sum to 8 are shown.
+    int level(TreeNode* root){
+        if(root==NULL) return 0;
+        return 1+max(level(root->left),level(root->right));
+    }
+    void preorder(TreeNode* root,vector<int>&ans,int l){
+        if(root==NULL)return;
+        ans[l]=root->val;
+        preorder(root->left,ans,l+1);
+        preorder(root->right,ans,l+1);
+    }
+    vector<int> rightSideView(TreeNode* root) {
+        vector<int>ans(level(root),0);
+        preorder(root,ans,0);
+        return ans;
+    }
+};
