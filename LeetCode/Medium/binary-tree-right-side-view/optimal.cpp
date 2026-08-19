@@ -1,4 +1,3 @@
-    int level(TreeNode* root){
         if(root==NULL) return 0;
         return 1+max(level(root->left),level(root->right));
     }
@@ -13,4 +12,5 @@
         preorder(root,ans,0);
         return ans;
     }
+        /// now udated tine is 10:56 date 19 aug
 };
